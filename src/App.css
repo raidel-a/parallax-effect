@@ -1,0 +1,21 @@
+@keyframes spin {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateX(-25vh);
+    }
+    100% {
+      transform: translateX(90vw);
+    }
+  }
+
+  img {
+    top : 100px;
+  }
